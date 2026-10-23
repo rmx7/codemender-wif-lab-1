@@ -21,7 +21,7 @@ name: CodeMender CI/CD Guardrail
 # Documentation and lab-tooling changes are ignored so they do not burn CI time.
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main","cm1" ]
     paths-ignore: [ '**.md', 'lab/**', '.gitignore' ]
   workflow_dispatch:
 
